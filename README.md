@@ -1,9 +1,7 @@
 # CMSC 13600 Course Project
-We will use a running quarter-long course project to reinforce the material taught in the class. One of the hardesst aspects of data engineering is understanding all of the software tooling and why it exists. In this project, you will design a working web-application from start to finish. Each week you will have to build a different component. We will try our best to simulate the development practices you would see in the software industry in terms of version control, unit testing, and documentation. 
+We used a running quarter-long course project to reinforce the material taught in our course Introduction to Data Engineering. One of the hardest aspects of data engineering is understanding all of the software tooling and why it exists. In this project, we designed a working web-application from start to finish. Each week we built a different component. Our goal was to simulate the development practices one would see in the tech industry in terms of version control, unit testing, and documentation for software programs. 
 
-Note the scenario below is completely fake, it is just designed to be simple enough that students can fully understand the application design requirements in the span of a quarter.
-
-You may work on this project individually or with a partner.
+Collaborators: Keegan Ballantyne & Yourou Li
 
 ## AttendanceChimp: An Electronic Class Attendance Tool
 AttendanceChimp is a web application that is designed to help college instructors keep track of attendance in their classes. The application uses a unique method to track attendance, which involves the use of a random QR code projected on a screen at the start of each class.
@@ -28,4 +26,4 @@ Uploading a photo of someone else's QR code: If students have access to another 
 AttendanceChimp should have tools to mitigate evasion through duplicate QR codes or other forms of cheating.
 
 ## Architecture
-AttendanceChimp will be built on `python-django` (https://www.djangoproject.com/). Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. Django can run a local web-server and can easily interface with a database backend. We will be using a SQLite databaase backend. SQLite is a database engine written in the C programming language. It is not a standalone app; rather, it is a library that software developers embed in their apps.
+AttendanceChimp was built on `python-django` (https://www.djangoproject.com/). Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It takes care of much of the hassle of web development, so we can focus on writing our app without needing to reinvent the wheel. Django can run a local web-server and can easily interface with a database backend. We used a SQLite databaase backend. SQLite is a database engine written in the C programming language. It is not a standalone app; rather, it is a library that software developers embed in their apps.
